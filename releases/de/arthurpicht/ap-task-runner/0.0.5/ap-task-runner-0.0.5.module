@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.arthurpicht",
+    "module": "ap-task-runner",
+    "version": "0.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ap-task-runner-0.0.5.jar",
+          "url": "ap-task-runner-0.0.5.jar",
+          "size": 29898,
+          "sha512": "e485279afcd0b46d336e5fccda3c9a569bf2b5db0851c4fe9727b72057b012967f77610bca6417ee20f0017def9c689a80e7fc6521e72ce4916701370b80035b",
+          "sha256": "1e7c60f710022c5594279eaf73894f17d63c5fe469f77c0fb0a75e8e3c84afbd",
+          "sha1": "56830d765196c21b7db59838d172dde99c5b9a41",
+          "md5": "ad846467f4cad7c6671d4bf68a69c9b7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "de.arthurpicht",
+          "module": "ap-utils-core",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "de.arthurpicht",
+          "module": "ap-utils-struct",
+          "version": {
+            "requires": "0.0.5"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "com.diogonunes",
+          "module": "JColor",
+          "version": {
+            "requires": "5.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ap-task-runner-0.0.5.jar",
+          "url": "ap-task-runner-0.0.5.jar",
+          "size": 29898,
+          "sha512": "e485279afcd0b46d336e5fccda3c9a569bf2b5db0851c4fe9727b72057b012967f77610bca6417ee20f0017def9c689a80e7fc6521e72ce4916701370b80035b",
+          "sha256": "1e7c60f710022c5594279eaf73894f17d63c5fe469f77c0fb0a75e8e3c84afbd",
+          "sha1": "56830d765196c21b7db59838d172dde99c5b9a41",
+          "md5": "ad846467f4cad7c6671d4bf68a69c9b7"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ap-task-runner-0.0.5-javadoc.jar",
+          "url": "ap-task-runner-0.0.5-javadoc.jar",
+          "size": 183864,
+          "sha512": "2fde1037295697c3ce7f3381c10ff1b66e5f528c5bc468e357c57ab4f751a01ee720fdf97e718c795b23ba8d6a86a21e4dfa131bdef851abf6ed606db5827ddf",
+          "sha256": "332d5e3b370db28a89319542d62e8081f2508bec7812da6e273b059a4175db6d",
+          "sha1": "d494788b66e4f1aadee9598e1c97ce58d847f36f",
+          "md5": "e8920ea8a45e3bbdbded00509ecedc4d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ap-task-runner-0.0.5-sources.jar",
+          "url": "ap-task-runner-0.0.5-sources.jar",
+          "size": 16775,
+          "sha512": "f907a07ce06a1af1697ff4ad0d919422f2c1e953edf6609ad979d4c676cc1eff895dd6ff0d4261cd542de70a0a9e84b68bad00b170ca198c515018dcd90bea51",
+          "sha256": "2e224326df76efaab66c1e4211a2fc47f42b5297311b1489941047dbc67b0cca",
+          "sha1": "efee90332e28c8556b2011d7eb44ec2e8e901e48",
+          "md5": "f5d8f375292888097f02e03994ba33d5"
+        }
+      ]
+    }
+  ]
+}
