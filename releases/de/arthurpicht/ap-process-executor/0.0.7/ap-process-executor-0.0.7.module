@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.arthurpicht",
+    "module": "ap-process-executor",
+    "version": "0.0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ap-process-executor-0.0.7.jar",
+          "url": "ap-process-executor-0.0.7.jar",
+          "size": 22509,
+          "sha512": "70b44032932249a44300a104f94889d3f532c81f1f990ae5e8857272cc4a444942db099454e3eb80b1a59f1c94f547a144fb7f9e1150639451939f204fc4f477",
+          "sha256": "2ec568337b03174fa44a5cd824966333621f7fb86fae538281d75fd512cc4412",
+          "sha1": "84323a9819171edcc3f55d1ccc9b54acab04bb23",
+          "md5": "5d14ad7e44781152f40de20526176810"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "de.arthurpicht",
+          "module": "ap-utils-core",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "de.arthurpicht",
+          "module": "ap-utils-io",
+          "version": {
+            "requires": "0.0.23"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ap-process-executor-0.0.7.jar",
+          "url": "ap-process-executor-0.0.7.jar",
+          "size": 22509,
+          "sha512": "70b44032932249a44300a104f94889d3f532c81f1f990ae5e8857272cc4a444942db099454e3eb80b1a59f1c94f547a144fb7f9e1150639451939f204fc4f477",
+          "sha256": "2ec568337b03174fa44a5cd824966333621f7fb86fae538281d75fd512cc4412",
+          "sha1": "84323a9819171edcc3f55d1ccc9b54acab04bb23",
+          "md5": "5d14ad7e44781152f40de20526176810"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ap-process-executor-0.0.7-javadoc.jar",
+          "url": "ap-process-executor-0.0.7-javadoc.jar",
+          "size": 166172,
+          "sha512": "e2cb0a3938ad3c997ee319d4fd105b31997806cc88abef3fe0f634022dc796a66b6f21938f9c42f7b124ae9579e634d18665883170878634d6c01dadacf614ba",
+          "sha256": "780db82f78498bf5379b8d3b78ab06d8cb37645565aa4232c6cedb287ebf51d4",
+          "sha1": "c329182fbacd0d1be8a2bb748c95a1d2911778a4",
+          "md5": "21d5ecd97c7e1265b596c2023f452cfb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ap-process-executor-0.0.7-sources.jar",
+          "url": "ap-process-executor-0.0.7-sources.jar",
+          "size": 12779,
+          "sha512": "8944dafd0a54877c0aebbc6ab374ab2cf8960c414b55932cf381870633bb4480443667b95bb45704ef8583cd96917ff777803b0969e01b1a622242e61d0dcbd4",
+          "sha256": "5a87062deef77593eaa0c147871677c7067df14da16248a3f50db8b3dfe3a4f4",
+          "sha1": "7ff7f5b38191578cbbb1dee732b7901d56583048",
+          "md5": "a09ad01349fdbd129c88c6c9ce9f54c9"
+        }
+      ]
+    }
+  ]
+}
