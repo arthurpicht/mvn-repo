@@ -9,5 +9,5 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>de.arthurpicht</groupId>
   <artifactId>ap-utils-core</artifactId>
-  <version>1.18.0</version>
+  <version>1.19.0</version>
 </project>
