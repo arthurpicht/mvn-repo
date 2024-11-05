@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.arthurpicht",
+    "module": "ap-console-to-slf4j",
+    "version": "0.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ap-console-to-slf4j-0.0.2.jar",
+          "url": "ap-console-to-slf4j-0.0.2.jar",
+          "size": 4302,
+          "sha512": "ad908bc2103da67ec4a7f11ed5e8b92ce70effa9a2b11dd1dc8eed4b94f4f5a0e38d42f2c29d3bfa5527ee6b54097afee3c8f12993d7b47dd461423b31d90af5",
+          "sha256": "b714595987df568f8459fdc567e9e15cc4cc7aec4d55a23b703c0521ad275107",
+          "sha1": "ee247a229c09d1bac50d15bc74962868979cecfc",
+          "md5": "ffcfc6f1d44d802a5ed3b39a4fe52b3f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "de.arthurpicht",
+          "module": "ap-console",
+          "version": {
+            "requires": "0.3.2"
+          }
+        },
+        {
+          "group": "de.arthurpicht",
+          "module": "ap-utils-core",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ap-console-to-slf4j-0.0.2.jar",
+          "url": "ap-console-to-slf4j-0.0.2.jar",
+          "size": 4302,
+          "sha512": "ad908bc2103da67ec4a7f11ed5e8b92ce70effa9a2b11dd1dc8eed4b94f4f5a0e38d42f2c29d3bfa5527ee6b54097afee3c8f12993d7b47dd461423b31d90af5",
+          "sha256": "b714595987df568f8459fdc567e9e15cc4cc7aec4d55a23b703c0521ad275107",
+          "sha1": "ee247a229c09d1bac50d15bc74962868979cecfc",
+          "md5": "ffcfc6f1d44d802a5ed3b39a4fe52b3f"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ap-console-to-slf4j-0.0.2-javadoc.jar",
+          "url": "ap-console-to-slf4j-0.0.2-javadoc.jar",
+          "size": 100225,
+          "sha512": "ffa49d509dc4ee575997b4e294bffd8da071464c71c5a7bc57e19de95c98a18df9e5caa0084f296c12f2b0d08462aacaef009495242581f0571143222eab2c98",
+          "sha256": "21a915309ebeb34348c59512d0e70866549ee13b14ae9107292b0aae4beef987",
+          "sha1": "78feb9cb587a555c1bcc7c99233924ec7e1c9156",
+          "md5": "a8900a0be8c5b5ac29803484a3232168"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ap-console-to-slf4j-0.0.2-sources.jar",
+          "url": "ap-console-to-slf4j-0.0.2-sources.jar",
+          "size": 2343,
+          "sha512": "7c51143e46331e87ae47dbd4c7b70f5716aff55f02335e92ab33ca2d27f96a10436f4661620e2e7cb03cbfc267e795da4d05abd89618753178a411e2718a1e7f",
+          "sha256": "62d95c2a40083a89aaed9b7dc171de4763586ed400b3af2e6954b0c0288fa613",
+          "sha1": "a88d20551e9eae688b3dfd184a2bc0df9dfe3b7e",
+          "md5": "f2d7662dcff840a4d809a70d6ef87dc6"
+        }
+      ]
+    }
+  ]
+}
