@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.arthurpicht",
+    "module": "ap-web-access-control",
+    "version": "0.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ap-web-access-control-0.0.4.jar",
+          "url": "ap-web-access-control-0.0.4.jar",
+          "size": 25433,
+          "sha512": "39ccb98ce0dd68995489a050fbde652532b0aca90883db0ac1906b74647a76044c0cd850c888622ac70f65a832e22bfbf727a017fa04f4345280b5352282f446",
+          "sha256": "ebe72ef7bc4eb2752733b410153b9466c70425be523b4497301ba025344bcec6",
+          "sha1": "d0cc2c018749693305b5a3b06bc01fdd21bb6b3b",
+          "md5": "5a8a8be779f8fb0f053f8345cfbd0ab6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "de.arthurpicht",
+          "module": "ap-utils-core",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.4.7"
+          }
+        },
+        {
+          "group": "jakarta.servlet",
+          "module": "jakarta.servlet-api",
+          "version": {
+            "requires": "4.0.2"
+          }
+        },
+        {
+          "group": "org.glassfish.jersey.containers",
+          "module": "jersey-container-servlet",
+          "version": {
+            "requires": "2.40"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ap-web-access-control-0.0.4.jar",
+          "url": "ap-web-access-control-0.0.4.jar",
+          "size": 25433,
+          "sha512": "39ccb98ce0dd68995489a050fbde652532b0aca90883db0ac1906b74647a76044c0cd850c888622ac70f65a832e22bfbf727a017fa04f4345280b5352282f446",
+          "sha256": "ebe72ef7bc4eb2752733b410153b9466c70425be523b4497301ba025344bcec6",
+          "sha1": "d0cc2c018749693305b5a3b06bc01fdd21bb6b3b",
+          "md5": "5a8a8be779f8fb0f053f8345cfbd0ab6"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ap-web-access-control-0.0.4-javadoc.jar",
+          "url": "ap-web-access-control-0.0.4-javadoc.jar",
+          "size": 187028,
+          "sha512": "a73f6a33ade3d6d95e413d60dc9bf6f42220bf31989a133140831233dcf516ae7093ae7ef49512d14cd211cc71fc7f2637f083ed651a20c204e60cfbab62e8bd",
+          "sha256": "96e751da8a7aab0ef87969c47c72e18e748a567a0804e70a34dc0979abe60e35",
+          "sha1": "23248c3f9254d776cddf0e25f4728da948beb2c4",
+          "md5": "655b12d5ad9bfa3211b968f865762804"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ap-web-access-control-0.0.4-sources.jar",
+          "url": "ap-web-access-control-0.0.4-sources.jar",
+          "size": 14757,
+          "sha512": "14f56e3ae52626d30da12e516710bd58b549765a52e2b2b2684fa1eb1b283896b2540b7aff9e9dd57c7d28ede8b6764057c82a1d3dcf7d147bbcc4e885bbded5",
+          "sha256": "6933ed418cfab692d12e40ffaebe9c0a05d0d5571d128802d733b33083a80bd7",
+          "sha1": "8ee082cc30940193271b1c4827755b54e02e6d69",
+          "md5": "14abf6bc8e4d8dbda90663e075409b2d"
+        }
+      ]
+    }
+  ]
+}
