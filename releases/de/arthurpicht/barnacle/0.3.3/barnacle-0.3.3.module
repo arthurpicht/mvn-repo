@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.arthurpicht",
+    "module": "barnacle",
+    "version": "0.3.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "barnacle-0.3.3.jar",
+          "url": "barnacle-0.3.3.jar",
+          "size": 209527,
+          "sha512": "0b213872e24abaed8df4040aeb04e5a6acffe19290771ea7854300f9e5a4ec1e74b84a8c03a53f5b5f22ffe3332dd9e2fe1a23c343ac7425a293e351c3852132",
+          "sha256": "74ec03d8d4e7ddac349660763c99741c3f222038b6dd068b5a88d14c5857b2c8",
+          "sha1": "a6349c4027c5a697eeb6d90976c393586acd6c90",
+          "md5": "b938963df7ad0fd8ade0dd0c424742d3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "de.arthurpicht",
+          "module": "ap-configuration",
+          "version": {
+            "requires": "0.1.7"
+          }
+        },
+        {
+          "group": "de.arthurpicht",
+          "module": "ap-utils-core",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "de.arthurpicht",
+          "module": "ap-utils-io",
+          "version": {
+            "requires": "0.0.23"
+          }
+        },
+        {
+          "group": "de.arthurpicht",
+          "module": "ap-cli",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "de.arthurpicht",
+          "module": "ap-console",
+          "version": {
+            "requires": "0.3.2"
+          }
+        },
+        {
+          "group": "org.mariadb.jdbc",
+          "module": "mariadb-java-client",
+          "version": {
+            "requires": "2.4.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "barnacle-0.3.3.jar",
+          "url": "barnacle-0.3.3.jar",
+          "size": 209527,
+          "sha512": "0b213872e24abaed8df4040aeb04e5a6acffe19290771ea7854300f9e5a4ec1e74b84a8c03a53f5b5f22ffe3332dd9e2fe1a23c343ac7425a293e351c3852132",
+          "sha256": "74ec03d8d4e7ddac349660763c99741c3f222038b6dd068b5a88d14c5857b2c8",
+          "sha1": "a6349c4027c5a697eeb6d90976c393586acd6c90",
+          "md5": "b938963df7ad0fd8ade0dd0c424742d3"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "barnacle-0.3.3-javadoc.jar",
+          "url": "barnacle-0.3.3-javadoc.jar",
+          "size": 605198,
+          "sha512": "aeb7ecfdab2b2a171bf28601b6cb0eb32646ca63c763324233dd43dd7f91e2f5e7c1869f3169300e6bde147f0d2628a6eefdaec2fdad9dccaddec5abed449b23",
+          "sha256": "ffdf4c486c9bd4b9e7cf11de6b6427e4100d0f8974ddb38000f87b4db4f84247",
+          "sha1": "4925f2c42a9b47c484d94f6f9138b264925ad93f",
+          "md5": "69b463aa62dee143cc030f8b469da4d5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "barnacle-0.3.3-sources.jar",
+          "url": "barnacle-0.3.3-sources.jar",
+          "size": 104806,
+          "sha512": "2ff25f14e668486c80b3bb887852d1b4c377cfc5e01b5638aaeac3b8efc015f49dfb469b7b8141831b32e2c70534192d35b0f4db4c44e362e6adc9b0a096eb06",
+          "sha256": "ecdfee7188af96869a04fd78e0fb47f2a34e49007a3dad57b1d74cbf69646035",
+          "sha1": "e03e93a691c612d7092eaf4bbc613ed417899c6b",
+          "md5": "4c0eb8f9d5b8f245574a4e8fc5d37832"
+        }
+      ]
+    }
+  ]
+}
