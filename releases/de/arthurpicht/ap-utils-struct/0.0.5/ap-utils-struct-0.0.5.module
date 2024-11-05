@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.arthurpicht",
+    "module": "ap-utils-struct",
+    "version": "0.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ap-utils-struct-0.0.5.jar",
+          "url": "ap-utils-struct-0.0.5.jar",
+          "size": 41764,
+          "sha512": "e51d531316c960c162e21d8d3a3c58cfce7e6052e34961d479cc749dada5164f196a0194a28fd5f70b77fcac23a66c0595d5be9212f0b86fab8bec46ffd1c9ae",
+          "sha256": "ce9652f434ba9d677036c622b2a74c50b1b2e3a640ebcf6cc8852465c9b55130",
+          "sha1": "fe9a092968d496bcbbd13b7c31e6bdccacd5b6c7",
+          "md5": "f785078ac5d8dd82660d98d890b00d0d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "de.arthurpicht",
+          "module": "ap-utils-core",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "de.arthurpicht",
+          "module": "ap-utils-io",
+          "version": {
+            "requires": "0.0.23"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ap-utils-struct-0.0.5.jar",
+          "url": "ap-utils-struct-0.0.5.jar",
+          "size": 41764,
+          "sha512": "e51d531316c960c162e21d8d3a3c58cfce7e6052e34961d479cc749dada5164f196a0194a28fd5f70b77fcac23a66c0595d5be9212f0b86fab8bec46ffd1c9ae",
+          "sha256": "ce9652f434ba9d677036c622b2a74c50b1b2e3a640ebcf6cc8852465c9b55130",
+          "sha1": "fe9a092968d496bcbbd13b7c31e6bdccacd5b6c7",
+          "md5": "f785078ac5d8dd82660d98d890b00d0d"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ap-utils-struct-0.0.5-javadoc.jar",
+          "url": "ap-utils-struct-0.0.5-javadoc.jar",
+          "size": 178602,
+          "sha512": "1b3c3d7fbcd5037c7f459baecacca0830fd846129486d54109d6b99a639039b1d77e467c2455f66ef79d15023415dbcc61aa3c330f352ea1e00a3d7c6754a910",
+          "sha256": "b645af3bbb53216c2fc76d013109eef6f2f83b33131faacc9978dcc95ced519d",
+          "sha1": "343660aead93cb97fbafcf76e6424bd43146867e",
+          "md5": "0dfa303c2ade428b1ffd1b08d5a153e2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ap-utils-struct-0.0.5-sources.jar",
+          "url": "ap-utils-struct-0.0.5-sources.jar",
+          "size": 18208,
+          "sha512": "9e765a59373f429249dec68aa220ab45b7b0e9db4a7469affb3f1967c6c0250a1b5f9a4d375b5857ea9898b8a34041c8fd71f66e3d6a9a5c2e4b1e32c009095d",
+          "sha256": "a5a33cfb9e754e35282199f0488c8135e9be3c411930a3d65b3101a93184082c",
+          "sha1": "9a4430dc042634974c9c5dca9daa378efcc6a08a",
+          "md5": "be768e0477f1ec221016ce5cd84cde2f"
+        }
+      ]
+    }
+  ]
+}
