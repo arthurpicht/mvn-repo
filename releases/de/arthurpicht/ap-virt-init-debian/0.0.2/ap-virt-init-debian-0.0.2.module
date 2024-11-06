@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.arthurpicht",
+    "module": "ap-virt-init-debian",
+    "version": "0.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ap-virt-init-debian-0.0.2.jar",
+          "url": "ap-virt-init-debian-0.0.2.jar",
+          "size": 30059,
+          "sha512": "324c22c916790a1c571cf85a9fd9264cdc83eef7759d8e4689d404e0bbf0e993dab04948255d833b59bdc4a1a62f31bfda5fb7040bbd8180e64046d53e843e49",
+          "sha256": "a1340ff734f17dbe1deb9c8d18cfe51298c04685462bc37066ea7f0c732a248a",
+          "sha1": "bd0c6a08a69b68179c2d1f00b55b4ef5dba8b0bd",
+          "md5": "e48d122b9d361df90786f2565936a979"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "de.arthurpicht",
+          "module": "ap-utils-core",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "de.arthurpicht",
+          "module": "ap-utils-io",
+          "version": {
+            "requires": "0.0.23"
+          }
+        },
+        {
+          "group": "de.arthurpicht",
+          "module": "ap-process-executor",
+          "version": {
+            "requires": "0.0.7"
+          }
+        },
+        {
+          "group": "de.arthurpicht",
+          "module": "ap-linux-wrapper",
+          "version": {
+            "requires": "0.0.7"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.4.12"
+          }
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna-platform-jpms",
+          "version": {
+            "requires": "5.14.0"
+          }
+        },
+        {
+          "group": "org.libvirt",
+          "module": "libvirt",
+          "version": {
+            "requires": "0.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ap-virt-init-debian-0.0.2.jar",
+          "url": "ap-virt-init-debian-0.0.2.jar",
+          "size": 30059,
+          "sha512": "324c22c916790a1c571cf85a9fd9264cdc83eef7759d8e4689d404e0bbf0e993dab04948255d833b59bdc4a1a62f31bfda5fb7040bbd8180e64046d53e843e49",
+          "sha256": "a1340ff734f17dbe1deb9c8d18cfe51298c04685462bc37066ea7f0c732a248a",
+          "sha1": "bd0c6a08a69b68179c2d1f00b55b4ef5dba8b0bd",
+          "md5": "e48d122b9d361df90786f2565936a979"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ap-virt-init-debian-0.0.2-javadoc.jar",
+          "url": "ap-virt-init-debian-0.0.2-javadoc.jar",
+          "size": 166411,
+          "sha512": "33d575fd088069737f1d152c3c51f7a25487bf4a994f6cb3423b92c5c6d8526d5a27f0f779b29c18d4c4c1a2699ce23fec0f90a1c53a05a3b84c34c0fdc75b1d",
+          "sha256": "e1b6b18d8b79e5337a621245649b9bbd791c005c0cf52e8b855c4b62fd52a581",
+          "sha1": "6993d570c5c11678b86b764cd9f229dcf6b6a1ae",
+          "md5": "a4451333b9b33078ca4db8463b3687ea"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ap-virt-init-debian-0.0.2-sources.jar",
+          "url": "ap-virt-init-debian-0.0.2-sources.jar",
+          "size": 15680,
+          "sha512": "5050a9c624d147ef0a192bfbc8cbcab0dd36dfdf6d8024d0f2e17303c9fcfa377ca69b0eda0ba6ae13053b5d1d5550a8dd551efcdce2f5147ca65ca3685bba04",
+          "sha256": "64f3ae9a743913f43298b1d93378925c10c134e7fe5df276311a93ef38911984",
+          "sha1": "a2060f897b67b653d2dd969f0bf41241d787093b",
+          "md5": "5d61087d6ff723960a192952c632e27b"
+        }
+      ]
+    }
+  ]
+}
