@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.arthurpicht",
+    "module": "ap-linux-wrapper",
+    "version": "0.0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ap-linux-wrapper-0.0.7.jar",
+          "url": "ap-linux-wrapper-0.0.7.jar",
+          "size": 42925,
+          "sha512": "63650fba58cba5d44a293b887252578b557fb3c6d218eb323149187b25ceb3b59144bb836d600623b0ecc5a55c69500a8705ff21f03dd99523c50cf8df83e8af",
+          "sha256": "5485d83f0dd7bb246dae58287274baac70b745a9eb901857f1f64e1bfabdd219",
+          "sha1": "90ff802c62a9253ad04482c683d0f9dbfcac97ea",
+          "md5": "9b2ec17e593cb35ec296d2af9ad2dff9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "de.arthurpicht",
+          "module": "ap-utils-core",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "de.arthurpicht",
+          "module": "ap-utils-io",
+          "version": {
+            "requires": "0.0.23"
+          }
+        },
+        {
+          "group": "de.arthurpicht",
+          "module": "ap-process-executor",
+          "version": {
+            "requires": "0.0.7"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ap-linux-wrapper-0.0.7.jar",
+          "url": "ap-linux-wrapper-0.0.7.jar",
+          "size": 42925,
+          "sha512": "63650fba58cba5d44a293b887252578b557fb3c6d218eb323149187b25ceb3b59144bb836d600623b0ecc5a55c69500a8705ff21f03dd99523c50cf8df83e8af",
+          "sha256": "5485d83f0dd7bb246dae58287274baac70b745a9eb901857f1f64e1bfabdd219",
+          "sha1": "90ff802c62a9253ad04482c683d0f9dbfcac97ea",
+          "md5": "9b2ec17e593cb35ec296d2af9ad2dff9"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ap-linux-wrapper-0.0.7-javadoc.jar",
+          "url": "ap-linux-wrapper-0.0.7-javadoc.jar",
+          "size": 218818,
+          "sha512": "8f18b10ed94f65ae5324750c0c7aaf414eeeda331839773af7792f05c987d1763b59c4c6f10b97e9cdebdac49bfe74c02268cde4013b465cc27365308f4501ad",
+          "sha256": "c2c419302d45bf65d1fbb389e75f2d1b6bb9f9adcbf822561bae78c35866e446",
+          "sha1": "e881b9492e0cac3d2acd348026180b604802dd43",
+          "md5": "f703760a8460976d18410a09c94c48a9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ap-linux-wrapper-0.0.7-sources.jar",
+          "url": "ap-linux-wrapper-0.0.7-sources.jar",
+          "size": 23317,
+          "sha512": "dbcb08801200fd876301290c67a6636143a6c9b803574b6e0ae02cc72b09c876bb30d22c1524352e3c4a2c636e41c380e4a974d35eef62f8f49c98714b735e5b",
+          "sha256": "94f64477b8cbaa46b11839c0be37c1e399dae5d1d483f4a276136637769fef31",
+          "sha1": "596ffbf9b0310ce514a9e2ee257191278f3844b9",
+          "md5": "27a8c3133252cb9d3de0b4848611ed04"
+        }
+      ]
+    }
+  ]
+}
