@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.arthurpicht",
+    "module": "ap-utils-pdfbox",
+    "version": "0.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ap-utils-pdfbox-0.0.6.jar",
+          "url": "ap-utils-pdfbox-0.0.6.jar",
+          "size": 16050,
+          "sha512": "8cbb9aa0b2f94de00da29bdd1f95463b324c9b58dc7433c1cc2821f42b75c1258a7f9b52f4ce08352a76d2619de4707afd8288fcedefaeb0adb1a0cc90e3dcc5",
+          "sha256": "7f1c24f7fb0b172918d3f118869801dc44261900167d6c89514d60d767ea89d7",
+          "sha1": "76e88328a4e07b8bc609fc3c7bd184a5952787cc",
+          "md5": "ddbffa993f6d929551c75bf00f7d4c85"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "de.arthurpicht",
+          "module": "ap-utils-core",
+          "version": {
+            "requires": "1.20.0"
+          }
+        },
+        {
+          "group": "org.apache.pdfbox",
+          "module": "pdfbox",
+          "version": {
+            "requires": "3.0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ap-utils-pdfbox-0.0.6.jar",
+          "url": "ap-utils-pdfbox-0.0.6.jar",
+          "size": 16050,
+          "sha512": "8cbb9aa0b2f94de00da29bdd1f95463b324c9b58dc7433c1cc2821f42b75c1258a7f9b52f4ce08352a76d2619de4707afd8288fcedefaeb0adb1a0cc90e3dcc5",
+          "sha256": "7f1c24f7fb0b172918d3f118869801dc44261900167d6c89514d60d767ea89d7",
+          "sha1": "76e88328a4e07b8bc609fc3c7bd184a5952787cc",
+          "md5": "ddbffa993f6d929551c75bf00f7d4c85"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ap-utils-pdfbox-0.0.6-javadoc.jar",
+          "url": "ap-utils-pdfbox-0.0.6-javadoc.jar",
+          "size": 131402,
+          "sha512": "bd0d0b3656c2bd97573aaabf40a3db10adec5323a59060c2d689dba1dd7bda5dfdad0d1913a83323ef6ead0a596eeaebfb40f9efcc050e6c770148e0db28ed44",
+          "sha256": "6b8aa82c7ab9a32f51fbbcfd2ba4832e384e3da3a6c51aab0b2440593430fa81",
+          "sha1": "f6fcab961338fd62e1df19ac45f6d8c52f66034c",
+          "md5": "596e885a9f0fb0b5f97088faec0dda5a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ap-utils-pdfbox-0.0.6-sources.jar",
+          "url": "ap-utils-pdfbox-0.0.6-sources.jar",
+          "size": 8956,
+          "sha512": "405b7382759d4584bd90e65cbd2b79378c9206a3d85095afad3e0b641b912c5604deb49e2f3a85de7db5f507b5e17f4c874515835e7f2bec2695f8024e2f511e",
+          "sha256": "584e90d8544e5310ad994fac423161f412c49380c423506e16c30217b148a39a",
+          "sha1": "ab1ea79cbc7797a31d860385d31fcc45232e87bc",
+          "md5": "5f0dae0627bee916a6699a0a3eee8325"
+        }
+      ]
+    }
+  ]
+}

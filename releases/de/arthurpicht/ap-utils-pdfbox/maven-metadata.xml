@@ -3,12 +3,13 @@
   <groupId>de.arthurpicht</groupId>
   <artifactId>ap-utils-pdfbox</artifactId>
   <versioning>
-    <latest>0.0.5</latest>
-    <release>0.0.5</release>
+    <latest>0.0.6</latest>
+    <release>0.0.6</release>
     <versions>
       <version>0.0.4</version>
       <version>0.0.5</version>
+      <version>0.0.6</version>
     </versions>
-    <lastUpdated>20241121125103</lastUpdated>
+    <lastUpdated>20241205093852</lastUpdated>
   </versioning>
 </metadata>
