@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.arthurpicht",
+    "module": "ap-configuration",
+    "version": "0.1.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ap-configuration-0.1.9.jar",
+          "url": "ap-configuration-0.1.9.jar",
+          "size": 20484,
+          "sha512": "06c44ea27d5abb77daedbc3574da332db82c7c91efb7fdf65107a018dd4ff7cd4816c7e2cfdc7c1e7a130b126b2852edef13013c3358f0ca2375d5e02f2a91e0",
+          "sha256": "bbb242af3ee32611aa3d56299d64f185c364434d9def1c45a723e9f2a6ae075c",
+          "sha1": "6cb823589eb2eb60844dde43b34c03809a79fd90",
+          "md5": "1a4ea652696cee862e11308ca07822ef"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ap-configuration-0.1.9.jar",
+          "url": "ap-configuration-0.1.9.jar",
+          "size": 20484,
+          "sha512": "06c44ea27d5abb77daedbc3574da332db82c7c91efb7fdf65107a018dd4ff7cd4816c7e2cfdc7c1e7a130b126b2852edef13013c3358f0ca2375d5e02f2a91e0",
+          "sha256": "bbb242af3ee32611aa3d56299d64f185c364434d9def1c45a723e9f2a6ae075c",
+          "sha1": "6cb823589eb2eb60844dde43b34c03809a79fd90",
+          "md5": "1a4ea652696cee862e11308ca07822ef"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ap-configuration-0.1.9-javadoc.jar",
+          "url": "ap-configuration-0.1.9-javadoc.jar",
+          "size": 149177,
+          "sha512": "2f1757f800051cb69456b1198558c45348bee84ee8a29406641ceb8a1ded5a0b0489443151bb0378fc51a4d0312fe65498ec75f57bea0328f18f402ffd77e008",
+          "sha256": "0b099e0e486f191a2b92bc0edb7a52e6d74eaed22c99c462fb728146221888d7",
+          "sha1": "2d610a9301084944e11233433a4e5d819482f2b1",
+          "md5": "f9a1999c3be794f41421a837722bb012"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ap-configuration-0.1.9-sources.jar",
+          "url": "ap-configuration-0.1.9-sources.jar",
+          "size": 17242,
+          "sha512": "400a595a9fc3ae27120108f5a7586eb1617b1acc251ec570655ae6ca72cad9c60722238f38a49d85fcb9a6110f856cee48361d6adc71cd858e3f9127d4ed2bee",
+          "sha256": "d0bc3f382ad8722a69b77dacaffb31b3903c659b8b9ee766c236e8098b65a7c2",
+          "sha1": "c82f3f41d58be55e80f7ac8906bac7e7fc5d208a",
+          "md5": "01579246b68b7ffb3463c18f631b927d"
+        }
+      ]
+    }
+  ]
+}
