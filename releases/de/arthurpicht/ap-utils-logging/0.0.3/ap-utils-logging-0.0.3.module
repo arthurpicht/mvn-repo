@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.arthurpicht",
+    "module": "ap-utils-logging",
+    "version": "0.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ap-utils-logging-0.0.3.jar",
+          "url": "ap-utils-logging-0.0.3.jar",
+          "size": 11033,
+          "sha512": "4f90feb4a23a0888a6ecded4b6f61ec00aeed9f2345775ef08feff0413aa6dac882f474ecb26bb3b296901b21178099bf23178121cef4b3889d56c7c0ccaf7f6",
+          "sha256": "8c5015613c4b0aaf7fac25ffc1e8e7065faaaf609a602781a06bf7b969738c82",
+          "sha1": "f2b795b3d66fa6f1bfc369d16dc6de0b109daba4",
+          "md5": "b74fb355beccd6b61ae945f4485d0148"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "de.arthurpicht",
+          "module": "ap-utils-core",
+          "version": {
+            "requires": "1.22.0"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ap-utils-logging-0.0.3.jar",
+          "url": "ap-utils-logging-0.0.3.jar",
+          "size": 11033,
+          "sha512": "4f90feb4a23a0888a6ecded4b6f61ec00aeed9f2345775ef08feff0413aa6dac882f474ecb26bb3b296901b21178099bf23178121cef4b3889d56c7c0ccaf7f6",
+          "sha256": "8c5015613c4b0aaf7fac25ffc1e8e7065faaaf609a602781a06bf7b969738c82",
+          "sha1": "f2b795b3d66fa6f1bfc369d16dc6de0b109daba4",
+          "md5": "b74fb355beccd6b61ae945f4485d0148"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ap-utils-logging-0.0.3-javadoc.jar",
+          "url": "ap-utils-logging-0.0.3-javadoc.jar",
+          "size": 117198,
+          "sha512": "65d6c5ed6548acf9f3d9e8a2e11966085e90ba6cede67aa6caa7cf14de7e6c857799244ff43d1176f318847e6fae59c45cab6f9aebdb5d8df3c2ffea6800a8d9",
+          "sha256": "a362cf8454f4e2c492a857f766bd0fd1335f42880a32c268cffca0aa18cbc2ad",
+          "sha1": "98989485b045ce59c2be14d10e0b3c9511f0b2d6",
+          "md5": "2b06d2173d3d209587e57e49cecbdcee"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ap-utils-logging-0.0.3-sources.jar",
+          "url": "ap-utils-logging-0.0.3-sources.jar",
+          "size": 5943,
+          "sha512": "c4d56127e75e90bd284074c708f099d4495b7c2a2f461593e6360f0826f9c4a7ba93da8188d105583c221b1d4c69859776478f2e09809ebb45357da44a7e38be",
+          "sha256": "52ed2728be00a9730bf619e5ec03285afa9c137b1591e0182ac82e17b4be326e",
+          "sha1": "c981dc782035e4bfef599c431e7a648e91273b34",
+          "md5": "6796d45cece8c5826d915c191cd8af15"
+        }
+      ]
+    }
+  ]
+}
